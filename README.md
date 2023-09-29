@@ -1,5 +1,7 @@
 # Opaque_Set
 
+*NOTE: "Total Remaining Area" refers to the area of the grey remaining on the first two graphs, NOT to the area of the figure in the bottom graph.
+
 These programs are tools to analyze opaque sets.
 (No curves allowed)
 
