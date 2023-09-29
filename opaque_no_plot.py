@@ -209,7 +209,7 @@ area_flipped = calculate_valid_area(FLIP_GOOD_AREA, flip(segments))
 area_total = area_original + area_flipped
 length = distance(segments)
 
-print("Total Remaining Area:")
+print("Total Remaining Grey:")
 print(area_total)
 
 print("Total Length:")
