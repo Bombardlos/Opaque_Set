@@ -346,7 +346,7 @@ def button_1(steiner_sets, perp_sets, other_sets, good_area, fig, ax1, ax2, ax3,
 
     length = calculate_combined_length(segments)
     print('---')
-    print('Total Remaining Area:')
+    print('Total Remaining Grey:')
     print(area_total)
     print('Total Length:')
     print(length)
@@ -398,7 +398,7 @@ def button_2(fig, ax1, ax2, ax3, text_a, text_b):
     
     length = calculate_combined_length(segments)
     print('---')
-    print('Total Remaining Area:')
+    print('Total Remaining Grey:')
     print(area_total)
     print('Total Length:')
     print(length)
@@ -434,7 +434,7 @@ def redraw(good_area, clicked_points, ax1, ax2, ax3, text_a, text_b):
 
     length = calculate_combined_length(segments)
     print('---')
-    print('Total Remaining Area:')
+    print('Total Remaining Grey:')
     print(area_total)
     print('Total Length:')
     print(length)
@@ -480,7 +480,7 @@ def plot_that_shit(good_area, segments):
     # Calculate the total area
     area_total = area_original + area_flipped
 
-    print("Total Remaining Area:")
+    print("Total Remaining Grey:")
     print(area_total)
 
 
@@ -549,7 +549,7 @@ def plot_that_shit(good_area, segments):
     button2 = Button(ax5, 'Erase All Lines')
 
     text1 = ax3.text(ax3.get_position().x0 - 1.2, ax3.get_position().y0 + 1.0, 'Click to Draw Lines')
-    text2 = ax4.text(ax4.get_position().x0 - 0.6, ax4.get_position().y0 + 4.2, f'Total Remaining Area:')
+    text2 = ax4.text(ax4.get_position().x0 - 0.6, ax4.get_position().y0 + 4.2, f'Total Remaining Grey:')
     text3 = ax4.text(ax4.get_position().x0 - 0.6, ax4.get_position().y0 + 3.5, f'{area_total}')
     text4 = ax4.text(ax4.get_position().x0 - 0.6, ax4.get_position().y0 + 2.5, f'Length:')
     text5 = ax4.text(ax4.get_position().x0 - 0.6, ax4.get_position().y0 + 1.8, f'{length}')
